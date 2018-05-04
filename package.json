@@ -2,17 +2,31 @@
   "name": "blogapi",
   "version": "1.0.0",
   "description": "BlogApi challenge by thinkful",
-  "main": "models.js",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "start": "node server.js",
+    "test": "mocha --exit"
   },
   "author": "Tarik Mey",
   "license": "ISC",
   "dependencies": {
+    "chai-http": "^4.0.0",
     "express": "^4.16.3",
     "morgan": "^1.9.0",
     "npm": "^6.0.0",
     "uuid": "^3.2.1"
-  }
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^5.1.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/R1k17/BlogAPI.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/R1k17/BlogAPI/issues"
+  },
+  "homepage": "https://github.com/R1k17/BlogAPI#readme"
 }
